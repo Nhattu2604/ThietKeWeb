@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+}
+
+.form-container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    border: 2px solid #9acd32;
+    width: 350px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: green;
+}
+
+.form-group {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.form-group input {
+    width: 100%;
+    padding-right: 40px; /* chừa chỗ cho icon bên phải */
+    box-sizing: border-box;
+}
+
+.form-group i {
+    position: absolute;
+    right: 10px;
+    color: #555;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px 10px;
+    border: 2px solid steelblue;
+    border-radius: 16px;
+    outline: none;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    cursor: pointer;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    flex: 1;
+    margin: 5px;
+    padding: 10px;
+   
+    background-color: rgb(15, 193, 220);
+    color: #2e4e1f;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+button:hover {
+    background-color: rgb(196, 242, 11);
+    color: white;
+}
